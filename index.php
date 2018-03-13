@@ -31,12 +31,12 @@ $label = '
     Misc options
 ****************************************************/
 
-    $full_path      = '/home/username/public_html'; // Full path to folder where you are running the script, usually "/home/username/public_html"
+ 	$full_path      = '/home/username/public_html'; // Full path to folder where you are running the script, usually "/home/username/public_html"
  	
  	$delete_backup	= true;	// delete gziped database from server after sending?
 
-    $send_log       = true;							
-    // send follow-up report?
+    	$send_log       = true;							
+    	// send follow-up report?
  	// - true = send log file to an e-mail after each backup transfer
  	// - false = don't send log file, just leave it on the server
 
